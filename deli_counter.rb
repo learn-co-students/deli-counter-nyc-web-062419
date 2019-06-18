@@ -9,10 +9,12 @@ def line(line_array)
         x +=1
     end
   
+
     if line_array.size == 0
         puts "The line is currently empty."
     else
-        puts "The line is currently:" new_line
+        puts "The line is currently:#{new_line.join}"
+    
     end
 end
 
